@@ -7,5 +7,6 @@ def index():
    return 'hello world'
 
 if __name__ == "__main__":
-    app.run()
+    application.debug = True
+    application.run()
 
